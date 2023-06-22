@@ -1,4 +1,4 @@
-/********************* GLOBAL ****/
+/************************************** GLOBAL ****/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 * {
@@ -34,15 +34,17 @@ html,
 body {
   background-color: var(--dsc-color-bg-primary);
 }
-.container {
+
+/******* GENERIC STYLES ******/
+.dsc-container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
 }
-.mb20 {
+.dsc-mb20 {
   margin-bottom: 20px;
 }
-/********************* CABEÇALHO ****/
+/*********************************************** HEADER STYLES ****/
 header {
   height: 70px;
   background-color: var(--dsc-color-bg-secondary);
@@ -58,28 +60,38 @@ nav {
   align-items: center;
 }
 
-/********************* MAIN CARD ****/
-.card {
+nav h1 {
+  font-size: 24px;
+}
+
+nav a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/********************************* CARD STYLES ****/
+.dsc-card {
   border: 1px solid var(--dsc-color-card-border);
   border-radius: 4px;
   background-color: var(--dsc-color-card-bg);
 }
 
-.product-details-top {
+.dsc-product-details-top {
   padding: 10px;
   display: flex;
   justify-content: center;
 }
-.line-bottom {
+.dsc-line-bottom {
   border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
-.btn-page-container {
+/********************************* BUTTON STYLES ****/
+.dsc-btn-page-container {
   width: 220px;
   display: grid;
   gap: 20px;
 }
-.btn {
+.dsc-btn {
   border-radius: 4px;
   height: 42px;
   font-size: 16px;
@@ -90,12 +102,12 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.btn-blue {
+.dsc-btn-blue {
   background-color: var(--dsc-color-btn-primary);
   color: var(--dsc-color-btn-inverse);
 }
 
-.btn-white {
+.dsc-btn-white {
   background-color: var(--dsc-color-btn-inverse);
   color: var(--dsc-color-btn-primary);
   border: 1px solid var(--dsc-color-btn-primary);
