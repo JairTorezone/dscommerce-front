@@ -1,0 +1,86 @@
+/********************* GLOBAL ****/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans";
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+html,
+body {
+  background-color: #e8e8e8;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+/********************* CABEÇALHO ****/
+header {
+  height: 70px;
+  background-color: #ffe500;
+
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  color: #636363;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/********************* MAIN CARD ****/
+.card {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.product-details-top {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.line-bottom {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.btn-page-container {
+  width: 220px;
+  display: grid;
+  gap: 20px;
+}
+.btn {
+  border-radius: 4px;
+  height: 42px;
+  font-size: 16px;
+  height: 42px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-blue {
+  background-color: #3483fa;
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #3483fa;
+  border: 1px solid #3483fa;
+}
