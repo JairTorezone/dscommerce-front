@@ -79,7 +79,14 @@ nav a {
   font-size: 14px;
   font-weight: 700;
 }
-
+.dsc-looged-user {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.dsc-looged-user p {
+  font-size: 12px;
+}
 /********************************* CARD STYLES ****/
 .dsc-card {
   border: 1px solid var(--dsc-color-card-border);
