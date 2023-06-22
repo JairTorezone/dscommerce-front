@@ -35,6 +35,10 @@ body {
   background-color: var(--dsc-color-bg-primary);
 }
 
+main {
+  padding: 0 20px;
+}
+
 /******* GENERIC STYLES ******/
 .dsc-container {
   width: 100%;
@@ -51,6 +55,7 @@ header {
 
   display: flex;
   align-items: center;
+  padding: 0 20px;
 }
 
 nav {
@@ -87,9 +92,15 @@ nav a {
 
 /********************************* BUTTON STYLES ****/
 .dsc-btn-page-container {
-  width: 220px;
+  width: 100%;
   display: grid;
   gap: 20px;
+}
+
+@media (min-width: 576px) {
+  .dsc-btn-page-container {
+    width: 220px;
+  }
 }
 .dsc-btn {
   border-radius: 4px;
