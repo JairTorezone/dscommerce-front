@@ -87,12 +87,26 @@ nav {
 }
 
 nav h1 {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 nav a {
   font-size: 14px;
   font-weight: 700;
+}
+.dsc-navbar-right {
+  display: flex;
+  align-items: center;
+}
+.dsc-menu-items-container {
+  display: flex;
+}
+.dsc-menu-items-container img {
+  width: 20px;
+  height: 20px;
+}
+.dsc-menu-item {
+  margin-right: 20px;
 }
 .dsc-looged-user {
   display: flex;
@@ -101,6 +115,12 @@ nav a {
 }
 .dsc-looged-user p {
   font-size: 12px;
+}
+
+@media (min-width: 576px) {
+  nav h1 {
+    font-size: 24px;
+  }
 }
 /********************************* CARD STYLES ****/
 .dsc-card {
