@@ -1,6 +1,6 @@
 <h1 align="center">DSCommerce</h1>
 
-> Status do Projeto: ✔️ (Concluído)
+> Status do Projeto: ✔️ (Em construção)
 
 ### Tópicos
 
@@ -9,8 +9,6 @@
 :small_blue_diamond: [Funcionalidades](#funcionalidades)
 
 :small_blue_diamond: [Deploy da Aplicação](#layout-e-deploy-da-aplicação-dash)
-
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
@@ -36,7 +34,7 @@ DSCommerce é uma sistema web de front-end e back-end construida ao longo da for
 
 ## Layout e Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação. Netlify:
+> Link do deploy da aplicação. Em construção:
 
 - Tour no site
 
