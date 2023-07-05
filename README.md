@@ -40,27 +40,27 @@ DSCommerce é uma sistema web de front-end e back-end construida ao longo da for
 
 - Tour no site
 
-![Tour](/images/dscommerce-tour-site.gif)
+![Tour](./images/dscommerce-tour-site.gif)
 
 - Login
 
-![Login](/images/dscommerce-login.png)
+![Login](./images/dscommerce-login.png)
 
 - Catalago
 
-![catalago](/images/dscommerce-catalogo.png)
+![catalago](./images/dscommerce-catalogo.png)
 
 - Detalhes do produto
 
-![Detais](/images/dscommerce-detais.png)
+![Detais](./images/dscommerce-detais.png)
 
 - Carrinho
 
-![Cart](/images/dscommerce-cart.png)
+![Cart](./images/dscommerce-cart.png)
 
 - Confirmação do pedido
 
-![Confimation](/images/dscommerce-confirmation.png)
+![Confimation](./images/dscommerce-confirmation.png)
 
 ## Como rodar a aplicação :arrow_forward:
 
