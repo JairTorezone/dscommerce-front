@@ -65,7 +65,7 @@ DSCommerce é uma sistema web de front-end e back-end construida ao longo da for
 No terminal, clone o projeto:
 
 ```
-git clone https://github.com/4lmeida/dscommerce-frontend/
+git clone https://github.com/JairTorezone/dscommerce-front/
 ```
 
 ```
